@@ -16,24 +16,20 @@ public class ProductoperationService {
 		}
 
 		List.add(product);
-
-		return "Product Added Succefully !";
+		return "Product Added Succefully now !";
 
 	}
 
 	public Object getAllProduct() {
 
 		try {
-
 			if (List.isEmpty()) {
-				return "Not Exits";
+				return "Product not Exist in our List..";
 			} else {
 				return List;
 			}
-
 		} catch (Exception e) {
-			return "something went wrong..";
-
+			return "something went wrong ...";
 		}
 
 	}

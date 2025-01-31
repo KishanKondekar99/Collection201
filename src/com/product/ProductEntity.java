@@ -66,7 +66,6 @@ public class ProductEntity {
 	public String getExpdDate() {
 		return expdDate;
 	}
-
 	public void setExpdDate(String expdDate) {
 		this.expdDate = expdDate;
 	}
