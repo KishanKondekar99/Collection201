@@ -46,6 +46,11 @@ public class TestproductController {
 			}
 			case 3: {
 				System.out.println("Press 3");
+				
+				Object allProduct = operation.getAllProduct();
+				
+				System.out.println(allProduct);
+				
 				break;
 			}
 

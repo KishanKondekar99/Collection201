@@ -71,4 +71,10 @@ public class ProductEntity {
 		this.expdDate = expdDate;
 	}
 
+	@Override
+	public String toString() {
+		return "ProductEntity [productId=" + productId + ", ProductName=" + ProductName + ", ProducQty=" + ProducQty
+				+ ", productPrize=" + productPrize + ", mfgDate=" + mfgDate + ", expdDate=" + expdDate + "]";
+	}
+
 }
