@@ -66,9 +66,14 @@ public class ProductEntity {
 	public String getExpdDate() {
 		return expdDate;
 	}
-
 	public void setExpdDate(String expdDate) {
 		this.expdDate = expdDate;
+	}
+
+	@Override
+	public String toString() {
+		return "ProductEntity [productId=" + productId + ", ProductName=" + ProductName + ", ProducQty=" + ProducQty
+				+ ", productPrize=" + productPrize + ", mfgDate=" + mfgDate + ", expdDate=" + expdDate + "]";
 	}
 
 }
